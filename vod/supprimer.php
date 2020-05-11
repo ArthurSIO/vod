@@ -33,4 +33,15 @@
 		}
 		$lines = array_values($lines);
 		?>
-    </body>
+		<br />
+		<br />
+		<center><div>
+		<a href="vod.html">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+				Menu Principale
+		</a>
+	</div></center>
+</body>

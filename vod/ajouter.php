@@ -24,4 +24,15 @@
 		echo "<tr><td>$_GET[nom]</td><td>$_GET[annee]</td><td>$_GET[prod]</td></tr>";
 	?>
 	</table>  
-    </body>
+	<br />
+		<br />
+		<center><div>
+		<a href="vod.html">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+				Menu Principale
+		</a>
+	</div></center>
+</body>

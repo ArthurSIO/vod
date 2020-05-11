@@ -155,6 +155,9 @@ fieldset
 	font-size: 25px;
 
 }
+.centrer {
+  text-align: center;
+}
 input[type=submit]
 {
 	position: relative;

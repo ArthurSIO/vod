@@ -9,14 +9,10 @@
 
 		
 		<?php
-		$lines = file("data/vod.csv");
-		
-		$resultat = false ;
-		
+		$lines = file("data/vod.csv");	
+		$resultat = false ;		
 		foreach($lines as $n => $line){
-		$unfilm = explode(":", $line);
-		
-		
+		$unfilm = explode(":", $line);		
 		if (strtoupper($unfilm[0]) == strtoupper($_GET["nom"])) {
 			$resultat = true ;
 			echo "<center><p id='texte'>Voici le film que vous avez demandé :</p></center>";
@@ -28,14 +24,20 @@
 			" ;
 			break;
 			}
-		}
-		
+		}		
 		if ($resultat == false){
 			echo "<center><p id='texte'>Désolé, nous n'avons pas trouvé votre film.</p></center>" ;
 			}
-
-		
-
 		?>
-
-    </body>
+		<br />
+		<br />
+		<center><div>
+		<a href="vod.html">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+				Menu Principale
+		</a>
+	</div></center>
+</body>
